@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune</h2>
+      </div>
+      <form id="fortune">
+        <div class="form-group">
+          <p>These are my unlucky events in the last month:</p>
+          <input type="checkbox" name="unlucky-event" value="black-cat">Seeing a black cat.<br>
+          <input type="checkbox" name="unlucky-event" value="ladder-walking">Walking under a ladder.<br>
+          <input type="checkbox" name="unlucky-event" value="toe-stub">Stubbing your toe.<br>
+          <input type="checkbox" name="unlucky-event" value="stimming">Acting like a character.<br>
+          <input type="checkbox" name="unlucky-event" value="video-game-addict">Playing a lot of video games.<br>
+          <input type="checkbox" name="unlucky-event" value="weapons">Using guns.<br>
+        </div>
+        <div class="form-group">
+          <p>These are my lucky events in the last month:</p>
+          <input type="checkbox" name="lucky-event" value="four-leaf-clover">Finding a four-leaf clover.<br>
+          <input type="checkbox" name="lucky-event" value="rainbow">Seeing a rainbow.<br>
+          <input type="checkbox" name="lucky-event" value="valentine's-day">Giving someone a valentine's day card.<br>
+          <input type="checkbox" name="lucky-event" value="skiing">Skiing down a mountain.<br>
+          <input type="checkbox" name="lucky-event" value="horseback-riding">Riding a horse.<br>
+          <input type="checkbox" name="lucky-event" value="money">Earning money.<br>
+        </div>
+        <button type="submit">Read Fortune</button>
+      </form>
+
+      <div id="unlucky">
+        <p>Your fortune is unlucky.</p>
+      </div>
+      <div id="lucky">
+        <p>Your fortune is lucky.</p>
+      </div>
+      <div id="inbetween">
+        <p>Your fortune is inbetween.</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+#unlucky {
+  display: none;
+  color: red;
+  font-size: 20px;
+}
+#lucky {
+  display: none;
+  color: green;
+  font-size: 20px;
+}
+#inbetween {
+  display: none;
+  color: blue;
+  font-size: 20px;
+}
+#bad {
+  display: none;
+}
+#good {
+  display: none;
+}
